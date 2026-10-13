@@ -1,0 +1,167 @@
+[
+  {
+    "name": "HTML",
+    "icon": "fab fa-html5",
+    "category": "language"
+  },
+  {
+    "name": "CSS",
+    "icon": "fab fa-css3-alt",
+    "category": "language"
+  },
+  {
+    "name": "JavaScript",
+    "icon": "fab fa-js",
+    "category": "language"
+  },
+  {
+    "name": "TypeScript",
+    "icon": "fab fa-js",
+    "category": "language"
+  },
+  {
+    "name": "Python",
+    "icon": "fab fa-python",
+    "category": "language"
+  },
+  {
+    "name": "C#",
+    "icon": "fab fa-csharp",
+    "category": "language"
+  },
+  {
+    "name": "VB.NET",
+    "icon": "fab fa-windows",
+    "category": "language"
+  },
+  {
+    "name": "VB6",
+    "icon": "fab fa-windows",
+    "category": "language"
+  },
+  {
+    "name": "COBOL",
+    "icon": "fas fa-code",
+    "category": "language"
+  },
+  {
+    "name": "SQL",
+    "icon": "fas fa-database",
+    "category": "language"
+  },
+  {
+    "name": "Astro",
+    "icon": "fas fa-rocket",
+    "category": "framework"
+  },
+  {
+    "name": "ASP.NET",
+    "icon": "fab fa-windows",
+    "category": "framework"
+  },
+  {
+    "name": "ASP.NET MVC",
+    "icon": "fab fa-windows",
+    "category": "framework"
+  },
+  {
+    "name": ".NET Framework",
+    "icon": "fab fa-windows",
+    "category": "framework"
+  },
+  {
+    "name": "Tailwind CSS",
+    "icon": "fas fa-wind",
+    "category": "framework"
+  },
+  {
+    "name": "SQL Server",
+    "icon": "fas fa-database",
+    "category": "database"
+  },
+  {
+    "name": "PostgreSQL",
+    "icon": "fas fa-database",
+    "category": "database"
+  },
+  {
+    "name": "DB2",
+    "icon": "fas fa-database",
+    "category": "database"
+  },
+  {
+    "name": "Git",
+    "icon": "fab fa-git-alt",
+    "category": "tool"
+  },
+  {
+    "name": "GitHub",
+    "icon": "fab fa-github",
+    "category": "tool"
+  },
+  {
+    "name": "Azure DevOps",
+    "icon": "fab fa-microsoft",
+    "category": "tool"
+  },
+  {
+    "name": "Jira",
+    "icon": "fab fa-jira",
+    "category": "tool"
+  },
+  {
+    "name": "Confluence",
+    "icon": "fab fa-confluence",
+    "category": "tool"
+  },
+  {
+    "name": "VS Code",
+    "icon": "fas fa-code",
+    "category": "tool"
+  },
+  {
+    "name": "Visual Studio",
+    "icon": "fas fa-code",
+    "category": "tool"
+  },
+  {
+    "name": "Docker",
+    "icon": "fab fa-docker",
+    "category": "tool"
+  },
+  {
+    "name": "Azure",
+    "icon": "fab fa-microsoft",
+    "category": "cloud"
+  },
+  {
+    "name": "AWS",
+    "icon": "fab fa-aws",
+    "category": "cloud"
+  },
+  {
+    "name": "Mainframe",
+    "icon": "fas fa-server",
+    "category": "cloud"
+  },
+  {
+    "name": "Agile/Scrum",
+    "icon": "fas fa-users",
+    "category": "other"
+  },
+  {
+    "name": "ITIL",
+    "icon": "fas fa-cogs",
+    "category": "other"
+  },
+  {
+    "name": "Chargeback Systems",
+    "icon": "fas fa-credit-card",
+    "category": "other"
+  },
+  {
+    "name": "Payment Processing",
+    "icon": "fas fa-money-bill-wave",
+    "category": "other"
+  }
+]

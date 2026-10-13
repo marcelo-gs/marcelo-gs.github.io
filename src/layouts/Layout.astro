@@ -1,0 +1,61 @@
+---
+// src/layouts/Layout.astro
+import Navigation from '../components/Navigation.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+    <link rel="canonical" href={canonicalURL} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate icon" type="image/png" href="/favicon.png" />
+    <!-- Preload critical fonts -->
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      crossorigin
+      href="https://fonts.gstatic.com/s/inter/v19/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hjp-Ek-_EeA.woff2"
+    />
+    <slot name="head" />
+    <script is:inline>
+      (function () {
+        const theme = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (theme === 'dark' || (!theme && prefersDark)) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">
+      Skip to main content
+    </a>
+    <header role="banner">
+      <Navigation />
+    </header>
+    <main id="main-content" role="main">
+      <slot />
+    </main>
+    <footer role="contentinfo" class="footer">
+      <p class="text-center text-neutral-500 dark:text-neutral-400 text-sm py-4">
+        &copy; {new Date().getFullYear()} Marcelo Gomes da Silva. Todos os direitos reservados.
+      </p>
+    </footer>
+  </body>
+</html>
+<style is:global>
+  @import '../styles/global.css';
+</style>

@@ -1,0 +1,258 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout
+  title="Declaração de Acessibilidade"
+  description="Declaração de acessibilidade do portfólio de Marcelo Gomes da Silva - Conformidade WCAG 2.1 AA"
+>
+  <main>
+    <div class="container-fluid p-0">
+      <section class="resume-section" id="accessibility" aria-labelledby="accessibility-heading">
+        <header>
+          <h1 id="accessibility-heading" class="mb-5">
+            Declaração de Acessibilidade
+          </h1>
+        </header>
+
+        <div class="accessibility-content">
+          <article>
+            <h2>Conformidade</h2>
+            <p>
+              Este site tem como objetivo estar em conformidade com as{' '}
+              <strong>Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.1 Nível AA</strong>,
+              publicadas pelo W3C (World Wide Web Consortium).
+            </p>
+            <p>
+              A conformidade com estas diretrizes ajuda a tornar o conteúdo web mais acessível para
+              pessoas com deficiência, incluindo deficiências visuais, auditivas, físicas, de fala,
+              cognitivas, de linguagem, de aprendizagem e neurológicas.
+            </p>
+
+            <h2>Status de Conformidade</h2>
+            <p>
+              <strong>Status:</strong> Parcialmente Conforme
+            </p>
+            <p>
+              O termo "Parcialmente Conforme" significa que algumas partes do conteúdo não estão em
+              total conformidade com o padrão de acessibilidade. Estamos trabalhando continuamente
+              para melhorar a acessibilidade deste site.
+            </p>
+
+            <h2>Limitações Conhecidas</h2>
+            <p>As seguintes limitações conhecidas existem atualmente:</p>
+            <ul>
+              <li>
+                <strong>Imagens de terceiros:</strong> Algumas imagens de redes sociais ou serviços
+                externos podem não ter texto alternativo adequado.
+                <br />
+                <em>Solução alternativa:</em> Estamos migrando para hospedagem própria de todas as
+                imagens críticas.
+              </li>
+              <li>
+                <strong>Conteúdo incorporado:</strong> Conteúdo de terceiros (como repositórios
+                GitHub, perfis LinkedIn) pode não atender aos padrões de acessibilidade.
+                <br />
+                <em>Solução alternativa:</em> Fornecemos links diretos para as fontes originais.
+              </li>
+              <li>
+                <strong>Documentos PDF:</strong> Documentos PDF mais antigos podem não ser
+                totalmente acessíveis.
+                <br />
+                <em>Solução alternativa:</em> Novos documentos são criados com acessibilidade em
+                mente; versões HTML são fornecidas quando possível.
+              </li>
+            </ul>
+
+            <h2>Medidas de Acessibilidade Implementadas</h2>
+            <p>Este site implementa as seguintes medidas de acessibilidade:</p>
+            <ul>
+              <li>
+                <strong>HTML Semântico:</strong> Uso adequado de elementos HTML5 semânticos (header,
+                main, nav, section, article, footer)
+              </li>
+              <li>
+                <strong>ARIA:</strong> Atributos ARIA implementados onde necessário para melhorar a
+                acessibilidade
+              </li>
+              <li>
+                <strong>Navegação por Teclado:</strong> Todo o conteúdo é navegável e operável via
+                teclado
+              </li>
+              <li>
+                <strong>Foco Visível:</strong> Indicadores de foco claros e visíveis em todos os
+                elementos interativos
+              </li>
+              <li>
+                <strong>Contraste de Cores:</strong> Razão de contraste mínima de 4.5:1 para texto
+                normal e 3:1 para texto grande
+              </li>
+              <li>
+                <strong>Modo Escuro/Claro:</strong> Suporte a preferência de esquema de cores do
+                sistema e alternância manual
+              </li>
+              <li>
+                <strong>Movimento Reduzido:</strong> Respeita a preferência{' '}
+                <code>prefers-reduced-motion</code> do usuário
+              </li>
+              <li>
+                <strong>Textos Alternativos:</strong> Todas as imagens informativas possuem texto
+                alternativo descritivo
+              </li>
+              <li>
+                <strong>Estrutura de Cabeçalhos:</strong> Hierarquia de cabeçalhos lógica e
+                sequencial (h1-h6)
+              </li>
+              <li>
+                <strong>Links Descritivos:</strong> Textos de link que fazem sentido fora de
+                contexto
+              </li>
+              <li>
+                <strong>Formulários Acessíveis:</strong> Labels associados, mensagens de erro
+                claras, validação acessível
+              </li>
+              <li>
+                <strong>Idioma da Página:</strong> Atributo <code>lang="pt"</code> definido no
+                elemento html
+              </li>
+              <li>
+                <strong>Link de Pular Conteúdo:</strong> Link "Skip to main content" para navegação
+                rápida por teclado
+              </li>
+            </ul>
+
+            <h2>Tecnologias Utilizadas</h2>
+            <p>A acessibilidade deste site depende das seguintes tecnologias:</p>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript (ES6+)</li>
+              <li>Astro Framework</li>
+              <li>Tailwind CSS</li>
+            </ul>
+
+            <h2>Feedback e Contato</h2>
+            <p>
+              Agradecemos seu feedback sobre a acessibilidade deste site. Se você encontrar alguma
+              barreira de acessibilidade ou tiver sugestões de melhoria, por favor, entre em
+              contato:
+            </p>
+            <address>
+              <p>
+                <strong>Email:</strong>{' '}
+                <a href="mailto:marcelo.gs@terra.com.br">marcelo.gs@terra.com.br</a>
+              </p>
+              <p>
+                <strong>Assunto sugerido:</strong> [Acessibilidade] - Relatório de problema ou
+                sugestão
+              </p>
+            </address>
+            <p>Tentamos responder a feedbacks de acessibilidade dentro de 5 dias úteis.</p>
+
+            <h2>Data de Atualização</h2>
+            <p>
+              <strong>Última atualização:</strong>{' '}
+              <time datetime="2026-10-12">12 de outubro de 2026</time>
+              <br />
+              <strong>Versão:</strong> 1.0
+            </p>
+            <p>
+              Esta declaração é atualizada sempre que melhorias significativas de acessibilidade são
+              implementadas.
+            </p>
+
+            <h2>Metodologia de Avaliação</h2>
+            <p>A avaliação de acessibilidade foi realizada através de:</p>
+            <ul>
+              <li>Autoavaliação usando ferramentas automatizadas (axe-core, Lighthouse)</li>
+              <li>Testes manuais de navegação por teclado</li>
+              <li>Testes com leitores de tela (NVDA, VoiceOver)</li>
+              <li>Verificação de contraste de cores</li>
+              <li>Revisão de código HTML semântico e ARIA</li>
+            </ul>
+
+            <h2>Compromisso Contínuo</h2>
+            <p>
+              Estamos comprometidos em manter e melhorar continuamente a acessibilidade deste site.
+              Novas funcionalidades e conteúdos são desenvolvidos com acessibilidade como requisito
+              fundamental, não como reflexão posterior.
+            </p>
+          </article>
+        </div>
+      </section>
+    </div>
+  </main>
+</Layout>
+
+<style is:global>
+  .accessibility-content article {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .accessibility-content h2 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #4e73df;
+    color: #2c3e50;
+  }
+
+  .accessibility-content h2:first-of-type {
+    margin-top: 1.5rem;
+  }
+
+  .accessibility-content p {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+  }
+
+  .accessibility-content ul {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .accessibility-content li {
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+  }
+
+  .accessibility-content li::marker {
+    color: #4e73df;
+  }
+
+  .accessibility-content address {
+    font-style: normal;
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border-left: 4px solid #4e73df;
+    margin: 1.5rem 0;
+  }
+
+  .dark .accessibility-content address {
+    background-color: #1e293b;
+  }
+
+  .accessibility-content code {
+    background-color: #f1f3f4;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.25rem;
+    font-family: 'Fira Code', 'Monaco', 'Consolas', monospace;
+    font-size: 0.9em;
+  }
+
+  .dark .accessibility-content code {
+    background-color: #334155;
+  }
+
+  .accessibility-content time {
+    font-weight: 600;
+  }
+
+  @media (max-width: 768px) {
+    .accessibility-content h2 {
+      font-size: 1.5rem;
+    }
+  }
+</style>
